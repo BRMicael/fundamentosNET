@@ -3,45 +3,19 @@
 
 using exemploFundamentos.Models;
 
-Console.WriteLine("Digite uma letra");
-string letra = Console.ReadLine();
+Calculadora calc = new Calculadora();
 
-//Condicionais
-//if(letra == "a"){
-//    Console.WriteLine("Vogal");
-//}else if (letra == "e"){
-//    Console.WriteLine("Vogal");
-//}else if (letra == "i"){
-//    Console.WriteLine("Vogal");
-//}else if (letra == "o"){
-//    Console.WriteLine("Vogal");
-//}else if (letra == "u"){
-//    Console.WriteLine("Vogal");
-//}else{
-//    Console.WriteLine("Não é uma vogal");
-//}
+calc.Somar(2,2);
+calc.Subtrair(2,2);
+calc.Multiplicar(2,2);
+calc.Dividir(2,2);
+calc.Potencia(4,2);
 
+calc.Seno(90);
+calc.Cosseno(180);
+calc.Tangente(30);
+calc.RaizQuadrada(81);
 
-//if(letra == "a" || letra == "e" || letra == "i" || letra == "o" || letra == "u"){
-//    Console.WriteLine("Vogal");
-//}else{
-//    Console.WriteLine("Não é uma vogal");
-//}
-
-switch (letra)
-{
-    case "a":
-    case "e":
-    case "i":
-    case "o":
-    case "u":
-        Console.WriteLine("Vogal");
-        break;
-    
-    default:
-        Console.WriteLine("Não é uma vogal");
-        break;
-}
 
 
 

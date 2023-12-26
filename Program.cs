@@ -3,75 +3,45 @@
 
 using exemploFundamentos.Models;
 
-//classe e variável
-Pessoa p1 = new Pessoa();
+Console.WriteLine("Digite uma letra");
+string letra = Console.ReadLine();
 
-p1.Nome = "Teste";
-p1.Idade = 2;
-p1.Apresentar();
-
-
-//Tipos de variáveis
-//string apresentacao = "Olá, seja bem vindo";
-
-//int quantidade = 1;
-
-//double altura = 1.80;
-
-//decimal preco = 1.80M;
-
-//bool condicao = true;
-
-//DateTime dataAtual = DateTime.Now.AddDays(5);
-
-//Console.WriteLine(apresentacao);
-//Console.WriteLine(quantidade);
-//Console.WriteLine(altura);
-//Console.WriteLine(altura.ToString("0.00"));
-//Console.WriteLine(preco);
-//Console.WriteLine(condicao);
-//Console.WriteLine(dataAtual);
-//Console.WriteLine(dataAtual.ToString("dd/MM/yyyy"));
+//Condicionais
+//if(letra == "a"){
+//    Console.WriteLine("Vogal");
+//}else if (letra == "e"){
+//    Console.WriteLine("Vogal");
+//}else if (letra == "i"){
+//    Console.WriteLine("Vogal");
+//}else if (letra == "o"){
+//    Console.WriteLine("Vogal");
+//}else if (letra == "u"){
+//    Console.WriteLine("Vogal");
+//}else{
+//    Console.WriteLine("Não é uma vogal");
+//}
 
 
-//Cast - Casting
-int a = int.Parse("5");
-int b = Convert.ToInt32("1");
+//if(letra == "a" || letra == "e" || letra == "i" || letra == "o" || letra == "u"){
+//    Console.WriteLine("Vogal");
+//}else{
+//    Console.WriteLine("Não é uma vogal");
+//}
 
-decimal c = decimal.Parse("7");
-
-Console.WriteLine(a);
-Console.WriteLine(b);
-Console.WriteLine(c);
-
-//Diferença entre Parse e Convert
-// Convert tratando null -> 0
-// Parse tratando null -> erro
-
-
-//Converter para string
-int d = 5;
-Console.WriteLine(d.ToString());
-Console.WriteLine(Convert.ToString(d));
-
-
-//Casting implicito
-//Valores de int cabem dentro de double e long
-int e = 9;
-double f = e;
-long g = e;
-
-Console.WriteLine(f);
-Console.WriteLine(g);
-
-// A recíproca não necessariamente é verdadeira
-//long h = long.MaxValue;
-//int  i = h;
+switch (letra)
+{
+    case "a":
+    case "e":
+    case "i":
+    case "o":
+    case "u":
+        Console.WriteLine("Vogal");
+        break;
+    
+    default:
+        Console.WriteLine("Não é uma vogal");
+        break;
+}
 
 
-string m = "15-";
-
-int n = 11;
-
-Console.WriteLine("Try: "+ int.TryParse(m, out n));
 

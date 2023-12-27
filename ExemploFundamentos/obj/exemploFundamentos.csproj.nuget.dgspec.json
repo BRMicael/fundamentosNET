@@ -1,0 +1,118 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\cursos\\dio\\net\\exemploFundamentos\\ExemploFundamentos\\exemploFundamentos.csproj": {}
+  },
+  "projects": {
+    "C:\\cursos\\dio\\net\\exemploFundamentos\\exemploFundamentos.Common\\exemploFundamentos.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\cursos\\dio\\net\\exemploFundamentos\\exemploFundamentos.Common\\exemploFundamentos.Common.csproj",
+        "projectName": "exemploFundamentos.Common",
+        "projectPath": "C:\\cursos\\dio\\net\\exemploFundamentos\\exemploFundamentos.Common\\exemploFundamentos.Common.csproj",
+        "packagesPath": "C:\\Users\\micae\\.nuget\\packages\\",
+        "outputPath": "C:\\cursos\\dio\\net\\exemploFundamentos\\exemploFundamentos.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\micae\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\cursos\\dio\\net\\exemploFundamentos\\ExemploFundamentos\\exemploFundamentos.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\cursos\\dio\\net\\exemploFundamentos\\ExemploFundamentos\\exemploFundamentos.csproj",
+        "projectName": "exemploFundamentos",
+        "projectPath": "C:\\cursos\\dio\\net\\exemploFundamentos\\ExemploFundamentos\\exemploFundamentos.csproj",
+        "packagesPath": "C:\\Users\\micae\\.nuget\\packages\\",
+        "outputPath": "C:\\cursos\\dio\\net\\exemploFundamentos\\ExemploFundamentos\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\micae\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\cursos\\dio\\net\\exemploFundamentos\\exemploFundamentos.Common\\exemploFundamentos.Common.csproj": {
+                "projectPath": "C:\\cursos\\dio\\net\\exemploFundamentos\\exemploFundamentos.Common\\exemploFundamentos.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

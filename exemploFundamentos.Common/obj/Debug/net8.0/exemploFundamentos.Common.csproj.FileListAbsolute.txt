@@ -1,0 +1,12 @@
+C:\cursos\dio\net\exemploFundamentos\exemploFundamentos.Common\bin\Debug\net8.0\exemploFundamentos.Common.deps.json
+C:\cursos\dio\net\exemploFundamentos\exemploFundamentos.Common\bin\Debug\net8.0\exemploFundamentos.Common.dll
+C:\cursos\dio\net\exemploFundamentos\exemploFundamentos.Common\bin\Debug\net8.0\exemploFundamentos.Common.pdb
+C:\cursos\dio\net\exemploFundamentos\exemploFundamentos.Common\obj\Debug\net8.0\exemploFundamentos.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\cursos\dio\net\exemploFundamentos\exemploFundamentos.Common\obj\Debug\net8.0\exemploFundamentos.Common.AssemblyInfoInputs.cache
+C:\cursos\dio\net\exemploFundamentos\exemploFundamentos.Common\obj\Debug\net8.0\exemploFundamentos.Common.AssemblyInfo.cs
+C:\cursos\dio\net\exemploFundamentos\exemploFundamentos.Common\obj\Debug\net8.0\exemploFundamentos.Common.csproj.CoreCompileInputs.cache
+C:\cursos\dio\net\exemploFundamentos\exemploFundamentos.Common\obj\Debug\net8.0\exemploFundamentos.Common.sourcelink.json
+C:\cursos\dio\net\exemploFundamentos\exemploFundamentos.Common\obj\Debug\net8.0\exemploFundamentos.Common.dll
+C:\cursos\dio\net\exemploFundamentos\exemploFundamentos.Common\obj\Debug\net8.0\refint\exemploFundamentos.Common.dll
+C:\cursos\dio\net\exemploFundamentos\exemploFundamentos.Common\obj\Debug\net8.0\exemploFundamentos.Common.pdb
+C:\cursos\dio\net\exemploFundamentos\exemploFundamentos.Common\obj\Debug\net8.0\ref\exemploFundamentos.Common.dll

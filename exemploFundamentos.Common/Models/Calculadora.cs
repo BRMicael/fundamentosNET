@@ -7,6 +7,13 @@ namespace exemploFundamentos.Common.Models
 {
     public class Calculadora
     {
+
+        /// <summary>
+        /// Realiza uma soma de dois números
+        /// </summary>
+        /// <param name="x">Primeiro número inteiro para somar</param>
+        /// <param name="y">Segundo número inteiro para somar</param>
+        /// <returns>Resultado será um número inteiro</returns>
         public void Somar(int x, int y) //void significa vazio, ausente de valor de retorno
         {
             Console.WriteLine($"{x} + {y} = {x + y}");

@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 //Caminho lógico != Caminho físico
 namespace exemploFundamentos.Common.Models
 {
+    /// <summary>
+    /// Representa uma pessoa física
+    /// </summary>
     public class Pessoa
     {
         public string? Nome { get; set; }

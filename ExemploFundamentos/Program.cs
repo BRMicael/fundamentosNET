@@ -3,18 +3,109 @@
 
 using exemploFundamentos.Common.Models;
 
-Calculadora calc = new Calculadora();
 
-calc.Somar(2,2);
-calc.Subtrair(2,2);
-calc.Multiplicar(2,2);
-calc.Dividir(2,2);
-calc.Potencia(4,2);
 
-calc.Seno(90);
-calc.Cosseno(180);
-calc.Tangente(30);
-calc.RaizQuadrada(81);
+//LISTAS
+List<string> listaString = new List<string>();
+
+listaString.Add("SP");
+listaString.Add("RJ");
+listaString.Add("MG");
+
+//for (int contador = 0; contador < listaString.Count; contador++)
+//{
+//    Console.WriteLine($"posição {contador}. Valor {listaString[contador]}");
+//}
+//
+//
+//int contadorForeach = 0;
+//foreach(string item in listaString)
+//{
+//    Console.WriteLine($"posição {contadorForeach}. Valor {item}");
+//    contadorForeach++;
+//}
+
+
+listaString.Add("ES");
+Console.WriteLine($"Numero de itens {listaString.Count}. Capacidade {listaString.Capacity}");
+
+listaString.Remove("ES");
+
+Console.WriteLine($"Numero de itens {listaString.Count}. Capacidade {listaString.Capacity}");
+
+
+listaString.Add("PR");
+
+
+Console.WriteLine($"Numero de itens {listaString.Count}. Capacidade {listaString.Capacity}");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//ARRAYS
+//int[] arrayInteiros = new int[3];
+//
+//arrayInteiros[0] = 22;
+//arrayInteiros[1] = 44;
+//arrayInteiros[2] = 32;
+
+//int contador = 0;
+//while (contador < arrayInteiros.Length)
+//{
+//    Console.WriteLine($"posição {contador}. Valor {arrayInteiros[contador]}");
+//    contador++;
+//}
+//
+
+//Array.Resize(ref arrayInteiros, arrayInteiros.Length * 2);
+//
+//int[] arrayInteirosDobrado = new int[arrayInteiros.Length * 2];
+//Array.Copy(arrayInteiros, arrayInteirosDobrado, arrayInteiros.Length);
+//
+//foreach(int valor in arrayInteirosDobrado)
+//{
+//    Console.WriteLine(valor);
+//}
+
+
+
+
+
+
+
+
+
+
+
+
+
+//Calculadora calc = new Calculadora();
+//
+//calc.Somar(2,2);
+//calc.Subtrair(2,2);
+//calc.Multiplicar(2,2);
+//calc.Dividir(2,2);
+//calc.Potencia(4,2);
+//
+//calc.Seno(90);
+//calc.Cosseno(180);
+//calc.Tangente(30);
+//calc.RaizQuadrada(81);
 
 
 //Estruturas de repetição
